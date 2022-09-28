@@ -150,7 +150,7 @@ class Apple:
 
 def gameLopp():
     pygame.init()
-    window = Game(31,25,30)
+    window = Game(13,13,40)
     snake = Snake(window)
     apple = Apple(window, snake)
     apple.inicio()
