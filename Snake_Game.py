@@ -122,8 +122,8 @@ class Apple:
         self.y = self.snake.body[0][1]-3
 
     def calPosition(self):
-        self.x = random.randint(0, self.window.cantWidth)
-        self.y = random.randint(0, self.window.cantHeight)
+        self.x = random.randint(0, self.window.cantWidth-1)
+        self.y = random.randint(0, self.window.cantHeight-1)
 
         while True:
             x = True
